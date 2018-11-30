@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700');
+/*
+
+    font-family: 'Ubuntu', sans-serif;
+
+    font-family: 'Montserrat', sans-serif;
+
+*/
+
+/*-=-=-=-==-==-=-=-=-=-=-=-=-==-==-==-= Common Library -=-=-------------=-=-*/
+.no_margin{margin:0!important}.no_padding{padding:0!important}.no_margin_left_right{margin-left:0!important;margin-right:0!important}.no_margin_top_bottom{margin-top:0!important;margin-bottom:0!important}*,p{margin:0;}.no_padding_left_right{padding-left:0!important;padding-right:0!important}.no_padding_top_bottom{padding-top:0!important;padding-bottom:0!important}*{outline:0;padding:0}.html{font-size:14px;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{font-family: 'Ubuntu', sans-serif;font-size:14px}h1,h2,h3,h4,h5,h6{font-family: 'Ubuntu', sans-serif;}a,button{text-decoration:none;color:#555;display:inline-block}.block_element,address,article,aside,footer,header,nav,section{display:block}a:focus,a:hover{color:#23527c;text-decoration:none}img{border:0;vertical-align:middle;max-width:100%}dl,ol,ul{list-style:none}button{background:0 0;border:none}ul{margin-bottom:0}
+a,button,
+a:focus,button:focus,
+a:active,button:active{
+    outline: none;
+    cursor: pointer;
+}
+.ubantu-font{
+    font-family: 'Ubuntu', sans-serif;
+}
+.monsarate-font{
+    font-family: 'Montserrat', sans-serif;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #000;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #000;
+    opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #000;
+    opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #000;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #000;
+}
+::placeholder { /* Most modern browsers support this now. */
+    color: #000;
+    opacity:  1;
+}
+
+.pulse {
+    border-radius: 50%;
+    box-shadow: 0 0 0 rgba(255,255,255, 0.4);
+    animation: pulse 2s infinite;
+  }
+  .pulse:hover {
+    animation: none;
+  }
+  
+  @-webkit-keyframes pulse {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(255,255,255, 0.4);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 10px rgba(255,255,255, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255,255,255, 0);
+    }
+  }
+  @keyframes pulse {
+    0% {
+      -moz-box-shadow: 0 0 0 0 rgba(255,255,255, 0.4);
+      box-shadow: 0 0 0 0 rgba(255,255,255, 0.4);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgba(255,255,255, 0);
+        box-shadow: 0 0 0 10px rgba(255,255,255, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(255,255,255, 0);
+        box-shadow: 0 0 0 0 rgba(255,255,255, 0);
+    }
+  }
